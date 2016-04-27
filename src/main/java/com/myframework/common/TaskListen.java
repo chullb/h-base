@@ -1,5 +1,7 @@
 package com.myframework.common;
 
+import com.myframework.common.Thread.TestThread;
+import com.myframework.common.Thread.ThreadHandle;
 import org.apache.log4j.Logger;
 
 import javax.servlet.ServletContextEvent;
