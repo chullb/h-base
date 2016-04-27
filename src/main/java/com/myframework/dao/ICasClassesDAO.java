@@ -1,6 +1,4 @@
-package com.controller.dao;
-
-import java.util.List;
+package com.myframework.dao;
 
 public interface ICasClassesDAO {
     public int deleteAll();
