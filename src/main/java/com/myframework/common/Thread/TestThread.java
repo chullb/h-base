@@ -15,10 +15,10 @@ public class TestThread extends Thread {
 
     @Override
     public void run() {
-        while (true) {
-            for(int i=0;i<4;i++){
-                System.out.println(i);
-            }
-        }
+//        while (true) {
+//            for(int i=0;i<4;i++){
+//                System.out.println(i);
+//            }
+//        }
     }
 }
