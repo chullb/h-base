@@ -49,7 +49,7 @@
         <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
     </listener>
     <listener>
-        <listener-class>com.myframework.common.TaskListen</listener-class>
+        <listener-class>com.common.TaskListen</listener-class>
     </listener>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>

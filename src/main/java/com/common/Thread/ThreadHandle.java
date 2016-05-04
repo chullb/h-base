@@ -1,4 +1,4 @@
-package com.myframework.common.Thread;
+package com.common.Thread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

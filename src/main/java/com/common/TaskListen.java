@@ -1,7 +1,7 @@
-package com.myframework.common;
+package com.common;
 
-import com.myframework.common.Thread.TestThread;
-import com.myframework.common.Thread.ThreadHandle;
+import com.common.Thread.TestThread;
+import com.common.Thread.ThreadHandle;
 import org.apache.log4j.Logger;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;

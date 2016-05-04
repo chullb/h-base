@@ -1,4 +1,4 @@
-package com.myframework.common.Thread;
+package com.common.Thread;
 
 import org.apache.log4j.Logger;
 
