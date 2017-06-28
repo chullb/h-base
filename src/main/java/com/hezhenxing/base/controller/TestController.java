@@ -13,10 +13,11 @@ import javax.servlet.http.HttpServletResponse;
  * Created by Administrator on 2016/4/26.
  */
 @Controller
+@RequestMapping("/test")
 public class TestController {
 
     @ResponseBody
-    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    @RequestMapping(value = "/doing", method = RequestMethod.GET)
     public Object test(HttpServletRequest request, HttpServletResponse response,
                           @RequestParam(required = false) String callback) {
         return "true";

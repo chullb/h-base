@@ -50,7 +50,6 @@ public class SortTest {
             @Override
             public int compare(User o1, User o2) {
                 int compareName = o1.getName().compareTo(o2.getName());
-                System.out.println(compareName);
                 if(compareName == 0){
                     return o1.getAge() == o2.getAge() ? 0 : (o1.getAge() > o2.getAge() ? 1 : -1);
                 }

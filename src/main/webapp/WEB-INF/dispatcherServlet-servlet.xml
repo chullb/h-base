@@ -28,6 +28,27 @@
 	<!--配置静态文件  -->
 	<mvc:default-servlet-handler/>
 
+	<mvc:interceptors>
+
+		<!-- 登陆信息缓存/通用权限控制 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean id="userAuthInterceptor" class="com.hezhenxing.base.common.interceptor.UserAuthInterceptor">
+				<property name="excludeUrls">
+					<list>
+						<!--<value>/js/</value>-->
+						<!--<value>/css/</value>-->
+						<!--<value>/images/</value>-->
+						<!--<value>/noPurview</value>-->
+						<!--<value>/index/</value>-->
+						<!--<value>/resetpwd</value>-->
+					</list>
+				</property>
+			</bean>
+		</mvc:interceptor>
+
+	</mvc:interceptors>
+
 	<!--<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
 		<!--<property name="location">-->
 			<!--<value>classpath:zfbtest19.properties</value>-->
